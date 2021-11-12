@@ -23,15 +23,4 @@ func main() {
 	fmt.Println(i64min / i64max)
 	fmt.Println(i64max + i64min*2)
 
-	var r rune
-	r = '😂'
-	fmt.Println(r)
-
-	var r1 rune
-	var r2 rune
-	r1 = '😂'
-	r2 = '😁'
-
-	fmt.Println(r1, r2)
-
 }
