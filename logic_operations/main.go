@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(x || y == x && !y || !x && y == (x || y) && (!x || !y))
 	fmt.Println(x || (y && !x) == (x && y) || (x && !x))
 	fmt.Println(x && (y || !x) == (x && y) || (x && !x))
-	fmt.Println(!x && !y == !x || !y)
+	fmt.Println(!x && !y == !x || !y) 
 	fmt.Println(x && (x || y) == x)
 	fmt.Println(x || !x == x && y == x || x == y)
 	fmt.Println(x || x == x && x == x && x == x || y == x)
